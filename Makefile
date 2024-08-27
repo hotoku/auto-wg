@@ -7,7 +7,7 @@ LOGCONF_DEST := /etc/newsyslog.d/$(LOGCONF_FILE)
 
 
 .PHONY: all
-all: load run $(LOGCONF_DEST)
+all: load $(LOGCONF_DEST)
 	@echo making $@
 
 
