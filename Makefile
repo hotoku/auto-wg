@@ -1,5 +1,5 @@
-PROJECT_NAME := auto-wg
-EXE_NAME := run.sh
+PROJECT_NAME := auto-wg-2
+EXE_NAME := run.bash
 PLIST_NAME := info.hotoku.$(PROJECT_NAME)
 PLIST_DESTPATH := $(HOME)/Library/LaunchAgents
 LOGCONF_FILE := $(PROJECT_NAME).conf

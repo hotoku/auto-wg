@@ -6,7 +6,7 @@
     <string>{{PLIST_NAME}}</string>
     <key>ProgramArguments</key>
     <array>
-      <string>{{WORKDIR}}/run.sh</string>
+      <string>{{WORKDIR}}/run.bash</string>
     </array>
     <key>RunAtLoad</key>
     <true/>
@@ -16,5 +16,7 @@
     <string>{{WORKDIR}}/stdout.log</string>
     <key>WorkingDirectory</key>
     <string>{{WORKDIR}}</string>
+    <key>StartInterval</key>
+    <integer>20</integer>
   </dict>
 </plist>
