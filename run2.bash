@@ -10,7 +10,5 @@ while true; do
     else
         echo "Connected"
     fi
-    sleep 10
-
 done
 myps -P 259 | sudo -S echo hello
